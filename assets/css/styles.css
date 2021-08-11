@@ -106,7 +106,7 @@ p {
 
 #landing-container {
 	position: absolute;
-	top: 0;
+	top: -100px;
 	left: 0;
 	height: 100%;
 	width:100%;
@@ -127,7 +127,7 @@ p {
 
 .button {
 	display: inline-block;
-	transform: translateY(180%);
+	transform: translateY(100%);
 	font-size: 2.5em;
 	width: 436.7px;
 	height: 180.75px;
