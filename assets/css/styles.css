@@ -111,7 +111,6 @@ p {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 250px;
 	left: 0;
 	height: 100%;
 	width:100%;	
@@ -143,7 +142,6 @@ p {
 	display: inline-block;
 	position: relative;
 	align-item: center;
-	margin-bottom: 130px;
 	font-size: 2.5em;
 	width: 436.7px;
 	height: 170.75px;
@@ -154,6 +152,10 @@ p {
 	cursor: pointer;
 	border: 1px solid black;
 	font-family: "Franklin Gothic",Arial,Helvetica,sans-serif;
+}
+
+.button button{
+	
 }
 
 .button:hover {
