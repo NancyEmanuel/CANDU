@@ -141,7 +141,7 @@ p {
 }
 
 .secondtext2{
-  margin: 50px;
+  margin: 45px;
   display: inline-block;
   align-items: center;
   justify-content: center;
@@ -152,8 +152,8 @@ p {
 .secondtext2 button                                            
 {
   font-size: 2.5em;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 300px;
   text-decoration: none;
   font-weight: 500;
   color: #008DC5;
