@@ -94,37 +94,47 @@ p {
 	  transform-origin: 0% 50%;
 	}
 
-.showcase
-{
-  height: 50%;
-  width:100%;
-  background: black;
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 70px;
-}
+	#home-section {
+		height: 60vh;
+		display: flex; 
+		align-items: center; 
+		align-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		background: black;
+		
+	}
+	
+	#landing-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: 150px;
+		top:0;
+		left: 0;
+		height: 60vh;
+		width:100%;	
+	}
 
-.showcase video
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  margin-top: 70px;
-  object-fit: cover;
-  opacity: 0.77;
-}
+	#landing-container video
+	{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60vh;
+	object-fit: cover;
+	background:black;
+	opacity: 0.77;
+	}
 
-.text
-{
-  display: flex;
-  text-align:center;
-  justify-content: center;
-  z-index: 1;
-}
+.text {
+	text-align: center;
+	z-index:1;
+	color: white;
+	font-size: 50px;
+  }
 
 .text h2
 {
@@ -142,7 +152,7 @@ p {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-top: 200px;
+	margin-top: 150px;
 }
 
 /* css for instructions page blog posts/article post blurbs */
