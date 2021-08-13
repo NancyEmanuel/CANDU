@@ -105,12 +105,14 @@ p {
 }
 
 #landing-container {
-	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 	top: 0;
 	left: 0;
 	height: 100%;
-	width:100%;
-	background: black;	
+	width:100%;	
 }
 
 #landing-container video
@@ -121,16 +123,17 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background:#03a9f4;
+  background:black;
   opacity: 0.77;
 }
 
 .button {
-	display: fixed;
-	transform: translateY(150%);
+	display: inline-block;
+	position: relative;
+	align-item: center;
 	font-size: 2.5em;
 	width: 436.7px;
-	height: 180.75px;
+	height: 170.75px;
 	text-decoration: none;
 	font-weight: 500;
 	color: white;
@@ -382,12 +385,6 @@ font-family: "Franklin Gothic",Arial,Helvetica,sans-serif;
   color: white;
 	transition: 0.5s;
 }
-
-.connect p{
-	font-size: 2rem;
-	line-height: 4;
-  
-  }
   
   .connect
   {
@@ -403,6 +400,11 @@ font-family: "Franklin Gothic",Arial,Helvetica,sans-serif;
 	display: flex;
 	align-text: center;
 	justify-content: center;
+  }
+
+  .connect p{
+	font-size: 2rem;
+	line-height: 4;
   }
   
   .connect button
