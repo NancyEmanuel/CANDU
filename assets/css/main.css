@@ -77,13 +77,12 @@ p {
 
 /**Home**/
 #home-section {
-	height: 60vh;
+	height: 40vh;
 	display: flex; 
 	align-items: center; 
 	align-content: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	background: black;
 }
 
 #landing-container {
@@ -135,7 +134,7 @@ p {
   
 .text h2
   {
-	color: #fff;
+	color: #4facfe;;
 	font-weight: 1000;
 	font-size: 70px;
 	line-height: 1em;
