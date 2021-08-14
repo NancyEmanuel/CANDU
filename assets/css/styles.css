@@ -360,8 +360,8 @@ font-family: "Franklin Gothic",Arial,Helvetica,sans-serif;
 .spotlight2
 {
   background-color: #003c71;
-  padding: 50px;
-  min-height: 35vh;
+  padding: 30px;
+  min-height: 30vh;
 }
 
 .spotlight2 h1{
@@ -409,8 +409,8 @@ font-family: "Franklin Gothic",Arial,Helvetica,sans-serif;
   .connect
   {
 	background-color: #fff ;
-	padding: 50px;
-	min-height: 35vh;
+	padding: 30px;
+	min-height: 30vh;
   }
   
   .connect h1{
