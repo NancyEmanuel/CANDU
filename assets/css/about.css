@@ -10,7 +10,6 @@ body, html{
     padding:0;
 }
 
-
 #nav {
 	left: 0%;
 	right: 0%;
@@ -71,7 +70,7 @@ section {
 
 #box {
     padding-top: 30px;
-    background-color: beige;
+    background-color: #0077CA;
     margin-top: 60px;
     box-shadow: 9px 8px black;
     padding-bottom: 20px;
@@ -86,6 +85,10 @@ section {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.box p{
+	color:white;
 }
 
 .section-title {
@@ -107,11 +110,17 @@ section {
 .section-title p {
     margin: 0;
     margin: 0;
-    font-size: 36px;
+    font-size: 45px;
     font-weight: 700;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: #151515;
+    color: white;
+}
+
+.points>li {
+    position: relative;
+    line-height: 2em;
+	color: white;
 }
 
 #footer {
